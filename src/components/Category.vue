@@ -10,7 +10,7 @@ export default {
   data() {
     return {
       games: ["红色警戒", "穿越火线", "劲舞团", "超级玛丽"],
-      text: "我修改了123456",
+      text: "我修改了123456789",
     };
   },
   props: ["title"],
