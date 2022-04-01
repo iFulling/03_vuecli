@@ -1,0 +1,41 @@
+<template>
+  <div class="demo">
+    <h2 class="name">学校名称：{{ name }}</h2>
+    <h2>学校地址：{{ address }}</h2>
+    <button @click="tes">获取学生信息</button>
+    <button>解绑时间</button>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "School",
+  data() {
+    return {
+      msg: "Hello",
+      name: "尚硅谷",
+      address: "北京",
+    };
+  },
+  methods:{
+    tes(val){
+      console.log(val);
+    }
+  },
+  mounted() {
+    this.$bus.$on("getName", (StudentName) => {
+      console.log(StudentName);
+    });
+    this.$bus.$on("te", this.tes)
+  },
+  beforeDestroy() {
+    this.$bus.$off("getName");
+  },
+};
+</script>
+
+<style lang="css" scoped>
+.demo {
+  background-color: pink;
+}
+</style>
