@@ -16,7 +16,7 @@
             About
           </router-link>
           <router-link class="list-group-item" active-class="active" to="/home">
-            Home123
+            Home
           </router-link>
         </div>
       </div>
