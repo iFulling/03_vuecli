@@ -24,7 +24,6 @@
         <div class="panel">
           <div class="panel-body">
             <router-view></router-view>
-            <div>1</div>
           </div>
         </div>
       </div>
