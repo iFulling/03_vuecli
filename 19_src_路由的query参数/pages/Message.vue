@@ -5,7 +5,7 @@
         <!-- 把to写成对象形式 -->
         <router-link
           :to="{
-            name: 'detail',
+            path: '/home/message/detail',
             query: {
               id: m.id,
               msg: m.msg,

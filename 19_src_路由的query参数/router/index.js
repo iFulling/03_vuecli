@@ -27,9 +27,14 @@ export default new VueRouter({
                     component: Message,
                     children: [
                         {
-                            name: "detail",
                             path: "detail",
-                            component: Detail
+                            component: Detail,
+                            props({ query }) {
+                                return {
+                                    id: query.id,
+                                    msg: query.msg
+                                }
+                            }
                         }
                     ]
                 }

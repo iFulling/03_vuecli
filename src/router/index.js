@@ -28,7 +28,13 @@ export default new VueRouter({
                     children: [
                         {
                             path: "detail",
-                            component: Detail
+                            component: Detail,
+                            props({ query }) {
+                                return {
+                                    id: query.id,
+                                    msg: query.msg
+                                }
+                            }
                         }
                     ]
                 }
