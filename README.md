@@ -25,6 +25,7 @@
 7. [Vue 学习笔记07：Todo-list案例](https://blog.csdn.net/realoser/article/details/123794197)
 8. [Vue 学习笔记08：Vue中的Ajax](https://blog.csdn.net/realoser/article/details/123825833)
 9. [Vue 学习笔记09：Vuex](https://blog.csdn.net/realoser/article/details/123839559)
+10. [Vue 学习笔记09：Vue-Router](https://blog.csdn.net/realoser/article/details/123896500) 
 
 ## 额外补充
 1. [VSCode 常用的11个快捷键](https://blog.csdn.net/realoser/article/details/121490885)
