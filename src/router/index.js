@@ -9,6 +9,7 @@ import Detail from '../pages/Detail'
 
 // 创建并暴露路由
 const router = new VueRouter({
+    mode: "history",
     routes: [
         {
             name: "About",
